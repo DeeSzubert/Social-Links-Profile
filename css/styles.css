@@ -1,0 +1,85 @@
+@font-face {
+  src: url("/assets/fonts/static/Inter-Regular.woff") format("woff");
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 1rem;
+}
+@font-face {
+  src: url("/assets/fonts/static/Inter-SemiBold.woff") format("woff");
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 1rem;
+}
+@font-face {
+  src: url("/assets/fonts/static/Inter-Bold.woff") format("woff");
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 1rem;
+}
+:root {
+  font-family: inter;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.social-links-profile {
+  background-color: hsl(0, 0%, 12%);
+  text-align: center;
+  padding: 20px 30px 20px 30px;
+}
+.social-links-profile-name {
+  font-size: 1.4em;
+  font-weight: 600;
+  margin: 0;
+  padding: 15px 0 10px 0;
+}
+.social-links-profile-photo {
+  border-radius: 100px;
+  max-width: 30%;
+}
+.social-links-profile-place {
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
+  color: hsl(75, 94%, 57%);
+}
+.social-links-profile-description {
+  font-size: 0.8em;
+  font-weight: light;
+  margin: 20px 12px;
+  padding: 0 px;
+}
+.social-links-profile-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.social-links-profile-list-element {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  padding: 13px 0;
+  margin: 15px 0;
+  width: 100%;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+.social-links-profile-list-element:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+/*# sourceMappingURL=styles.css.map */
